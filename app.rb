@@ -31,11 +31,11 @@ class App < Sinatra::Base
     if params[:operation] == "add"
       "#{num1 + num2}"
     elsif params[:operation] == "subtract"
-      num1 - num2
+      "#{num1 - num2}"
     elsif params[:operation] == "multiply"
-      num1 * num2
+      "#{num1 * num2}"
     else params[:operation] == "divide"
-      num1/num2
+      "#{num1/num2}"
     end
     #convert to integers and do if/else statement?
     # binding.pry
