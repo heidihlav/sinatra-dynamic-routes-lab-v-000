@@ -37,8 +37,6 @@ class App < Sinatra::Base
     else params[:operation] == "divide"
       "#{num1/num2}"
     end
-    #convert to integers and do if/else statement?
-    # binding.pry
   end
 
 
