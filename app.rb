@@ -39,7 +39,6 @@ class App < Sinatra::Base
     end
     #convert to integers and do if/else statement?
     # binding.pry
-
   end
 
 
